@@ -4,5 +4,10 @@ metadata:
   name: oxygen
   namespace: flux-system
 spec:
-  interval: 1m0s
-  dependsOn:
+  interval: 0m0s
+  sourceRef:
+    kind: GitRepository
+    name: flux-system
+  path: ./oxygen
+  prune: true
+  wait: true
