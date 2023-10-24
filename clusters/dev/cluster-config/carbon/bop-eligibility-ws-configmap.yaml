@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bop-eligibility-ws-config
+    namespace: application
+data:
+    ELIGIBILITY_RULE_BUCKET_NAME : "bop-rules-store-s3-eis-lz-ehost-devqa"

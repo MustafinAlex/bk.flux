@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: books-eligibility-ws-config
+    namespace: application
+data:
+    CROSS_ACCOUNT_ACCESS_ROLE_ARN: arn:aws:iam::050757695471:role/refarch/books-eligibility-ws-cross-account-access-role
+    SNS__BOOKSELIGIBILITYTOPICARN: arn:aws:sns:us-east-1:050757695471:books-eligibility-topic
+

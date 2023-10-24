@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bop-config-container-ui-configmap
+    namespace: application
+data:
+  CDN_URL: https://d1j9r0mspoapee.cloudfront.net
+  BOP_CONFIG_PRODUCT_CDN_URL: https://d40pxste585ag.cloudfront.net/static
+  BOP_CONFIG_USER_CDN_URL: https://dq72hinj550gp.cloudfront.net/static

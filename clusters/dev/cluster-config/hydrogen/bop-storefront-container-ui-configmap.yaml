@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bop-storefront-container-ui-configmap
+    namespace: application
+data:
+  STATIC_CONTENT_CDN_URL: https://mosaic-assets-staging.ebsco.com
+  OSANO_SOURCE_URL: https://cmp.osano.com/169lTOSNzFFdw20EN/f4e06e3f-95a9-49a6-8917-ff0da73f8bb5/osano.js

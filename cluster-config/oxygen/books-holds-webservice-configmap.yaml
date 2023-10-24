@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: books-holds-webservice-configmap
-    namespace: application
-data: 
-   SES__FROMEMAILADDRESS: eBookHoldAlert@ebsco.com
-   SES__ISLIVESENDMODE: "false"
-   CUSTOMERSETTINGSAPI__V2ENABLED: "true"

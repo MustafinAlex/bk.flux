@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bop-customer-ws
+    namespace: application
+data:
+    BOP_SHARED_SEARCH_ENDPOINT : "https://bop-shared-search-oss.ehost-devqa.eislz.com"

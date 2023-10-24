@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bop-catalog-ws-configmap
+    namespace: application
+data:  
+  S3SERVICESETTINGS__CATALOGRECORDSBUCKET: "bop-catalog-record-store-devqa"

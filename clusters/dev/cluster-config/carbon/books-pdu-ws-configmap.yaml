@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: books-pdu-ws
+    namespace: application
+data: 
+   AMQ_CONSUMING: "true"
+   CANCELLATION_QUEUE_NAME : "queue://BCI.PduQueue-CancelUpgrade"
+   DLQS_NAMES : "queue://DLQ.BCI.PduQueue-CancelUpgrade,queue://DLQ.BCI.PduQueue-Upgrade"
+   FROM_EMAIL_ADDRESS : "EBSCOeBooks@ebsco.com"
+   SES__ISLIVESENDMODE: "false"

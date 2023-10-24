@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: books-lists-webservice-configmap
+    namespace: application
+data:
+  BOOKS_LISTS_STORE: books-lists-store.cluster-cww2jj360xkz.us-east-1.rds.amazonaws.com
+  BOOKS_LISTS_STORE_READ_ONLY: books-lists-store.cluster-ro-cww2jj360xkz.us-east-1.rds.amazonaws.com
