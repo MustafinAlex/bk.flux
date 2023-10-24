@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: bop-supplier-ws-configmap
-    namespace: application
-data:
-  APP_ENV: "nonlive"

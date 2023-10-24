@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: books-audioengine-ws-configmap
-    namespace: application
-data:
-   TOGGLES__ISAUDIOENGINEOFF: "false"

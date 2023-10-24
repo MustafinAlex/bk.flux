@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: bop-eem-access-ws-configmap
-    namespace: application
-data:
-  ACCESS_DISABLED_BY_DEFAULT: "false"

@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: bop-reference-api-config
-    namespace: application
-data:
-    REFERENCE_BUCKET_NAME : "bop-reference-store-devqa"

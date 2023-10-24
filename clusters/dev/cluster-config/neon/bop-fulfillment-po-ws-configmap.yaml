@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: bop-fulfillment-po-ws-configmap
-    namespace: application
-data:
-  PURCHASEORDERSTOREBUCKET__NAME: bop-fulfillment-po-store-devqa

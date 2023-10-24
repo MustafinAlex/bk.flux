@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-    name: books-bcr-aws-comparison-ui-configmap
-    namespace: application
-data:
-   CONNECTIONSTRINGS__BCR: "Data Source=EDN-V-BCRMSSD1.sdn.ebscopub.com;Initial Catalog=BCR;Persist Security Info=True;Encrypt=True;TrustServerCertificate=True;User ID=read_user;Password=()nDemand"
