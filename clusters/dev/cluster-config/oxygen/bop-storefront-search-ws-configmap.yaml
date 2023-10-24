@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: bop-storefront-search-ws-configmap
+    namespace: application
+data:
+   OPENSEARCHSTOREFRONT__BASEURL: "https://bop-storefront-search-oss.ehost-devqa.eislz.com"
