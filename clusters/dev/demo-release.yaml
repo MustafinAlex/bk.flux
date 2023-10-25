@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: dev/helm-charts
-      version: '1.0.x'
+      version: '4.0.x'
       sourceRef:
         kind: GitRepository
         name: bk.secretum
