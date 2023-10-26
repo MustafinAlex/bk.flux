@@ -4,4 +4,5 @@ kind: Kustomization
 namespace: application
 resources:
   - bop-config-invoice-search-ui.yaml
+  - bop-config-invoice-ui-edge.yaml
 
