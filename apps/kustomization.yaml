@@ -3,5 +3,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: application
 resources:
-  - demo-release.yaml
-  - app-release.yaml
+  - bop-config-invoice-ui-edge.yaml
+  - bop-config-invoice-search-ui.yaml
