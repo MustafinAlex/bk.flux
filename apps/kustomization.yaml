@@ -4,3 +4,4 @@ kind: Kustomization
 namespace: application
 resources:
   - demo-release.yaml
+  - demo2-release.yaml
