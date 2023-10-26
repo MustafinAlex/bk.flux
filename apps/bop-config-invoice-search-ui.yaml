@@ -19,5 +19,5 @@ spec:
     name: bop-config-invoice-search-ui-values
     valuesKey: values.yaml
     optional: false
-  values:
-    replicaCount: 1
+#  values:
+#    replicaCount: 1
