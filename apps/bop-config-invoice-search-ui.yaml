@@ -14,7 +14,7 @@ spec:
         name: bk.secretum
         namespace: flux-system
       valuesFiles:
-        - ../bop-config-invoice-search-ui/values.yaml
+        - values.yaml
       interval: 1m
   values:
     replicaCount: 1
