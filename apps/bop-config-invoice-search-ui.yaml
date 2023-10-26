@@ -13,11 +13,11 @@ spec:
         kind: GitRepository
         name: bk.secretum
         namespace: flux-system
-      valuesFrom:
-      - kind: ConfigMap
-        name: bop-config-invoice-search-ui-values
-        valuesKey: values.yaml
-        optional: false
       interval: 1m
+  valuesFrom:
+  - kind: ConfigMap
+    name: bop-config-invoice-search-ui-values
+    valuesKey: values.yaml
+    optional: false
   values:
     replicaCount: 1
