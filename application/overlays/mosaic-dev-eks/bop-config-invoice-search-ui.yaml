@@ -7,10 +7,14 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: dev/helm-charts
+      chart: application/base/application/helm-charts
+#      chart: dev/helm-charts
       version: '4.0.x'
       sourceRef:
         kind: GitRepository
-        name: bk.secretum
+        name: flux-system
+#        name: bk.secretum
         namespace: flux-system
       interval: 1m
+#  values:
+#    replicaCount: 1
