@@ -8,7 +8,7 @@ spec:
   releaseName: helloworld
   chart:
     spec:
-      chart: application/base/application/helm-charts
+      chart: ./application/base/application/helm-charts
       version: '4.0.x'
       sourceRef:
         kind: GitRepository
