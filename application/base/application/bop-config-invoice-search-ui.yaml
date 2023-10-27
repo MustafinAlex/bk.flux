@@ -2,9 +2,10 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: bop-config-invoice-search-ui
-  namespace: default
+  namespace: application
 spec:
   interval: 1m
+  releaseName: helloworld
   chart:
     spec:
       chart: application/base/application/helm-charts
