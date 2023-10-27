@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: bop-config-invoice-search-ui
+  name: bop-config-ui
   namespace: application
 spec:
   interval: 5m

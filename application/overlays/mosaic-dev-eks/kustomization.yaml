@@ -4,9 +4,8 @@ kind: Kustomization
 
 resources:
   - ../../base
-  - bop-config-invoice-search-ui.yaml
-
-
+  - bop-config-ui.yaml
+  - bop-config-api.yaml
 
 # For test (Renaming Namespace)
 patches:
