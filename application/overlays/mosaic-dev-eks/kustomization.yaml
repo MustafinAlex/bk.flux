@@ -6,6 +6,9 @@ resources:
   - ../../base/application
   - bop-config-invoice-search-ui.yaml
 
+
+
+# For test (Renaming Namespace)
 patches:
   - path: ./patches/global/namespace.yaml
     target:
