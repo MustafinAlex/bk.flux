@@ -7,7 +7,6 @@ metadata:
 spec:
   interval: 1m0s
   path: ./application/overlays/mosaic-dev-eks
-#  path: ./application/base/application
   prune: true
   sourceRef:
     kind: GitRepository
