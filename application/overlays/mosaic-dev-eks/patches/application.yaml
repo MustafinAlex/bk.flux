@@ -1,0 +1,5 @@
+---
+- op: add
+  path: /metadata/name
+  value: "myapp"
+
