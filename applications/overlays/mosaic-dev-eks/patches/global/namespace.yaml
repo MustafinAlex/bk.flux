@@ -1,5 +1,5 @@
 ---
 - op: add
   path: /metadata/name
-  value: "application"
+  value: "applications"
 
