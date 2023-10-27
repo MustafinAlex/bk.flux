@@ -6,8 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-#  path: ./application/overlays/mosaic-dev-eks
-  path: ./application/base/application
+  path: ./application/overlays/mosaic-dev-eks
+#  path: ./application/base/application
   prune: true
   sourceRef:
     kind: GitRepository
