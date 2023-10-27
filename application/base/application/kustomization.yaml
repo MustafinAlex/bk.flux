@@ -4,3 +4,4 @@ kind: Kustomization
 namespace: application
 resources:
   - namespace.yaml
+  - application.yaml
