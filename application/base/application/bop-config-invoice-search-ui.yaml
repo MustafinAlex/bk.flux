@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: ./application/bsae/application/helm-charts
+      chart: ./application/base/application/helm-charts
       version: '4.0.x'
       sourceRef:
         kind: GitRepository
