@@ -14,8 +14,6 @@ spec:
         name: flux-system
         namespace: flux-system
       interval: 1m
-      valuesFiles: 
-        - base/app/bop-config-api/values.yaml              # one
 
 #  values:
 #    replicaCount: 1

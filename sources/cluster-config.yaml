@@ -10,8 +10,8 @@ spec:
   secretRef:
     name: flux-system
   url: ssh://git@github.com/MustafinAlex/bk.cluster-config
-  include:
-    - repository:
-        name: k8s-apps
-      fromPath: mosaic-dev-eks
-      toPath: base/app
+#  include:
+#    - repository:
+#        name: k8s-apps
+#      fromPath: mosaic-dev-eks
+#      toPath: base/app
