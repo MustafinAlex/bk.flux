@@ -14,5 +14,11 @@ spec:
         name: flux-system
         namespace: flux-system
       interval: 1m
+  valuesFrom:
+  - kind: ConfigMap
+    name: bop-config-ui-values
+    valuesKey: values.yaml
+    optional: false
+
 #  values:
 #    replicaCount: 1
