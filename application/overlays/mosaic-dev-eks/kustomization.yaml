@@ -4,6 +4,7 @@ kind: Kustomization
 
 resources:
   - ../../base
+  - bop-config-api-k.yaml
 #  - bop-config-ui.yaml
 #  - bop-config-api.yaml
 
