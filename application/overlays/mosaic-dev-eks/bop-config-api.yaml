@@ -4,7 +4,7 @@ metadata:
   name: bop-config-api
   namespace: application
 spec:
-  interval: 5m
+  interval: 1m
   chart:
     spec:
       chart: application/base/helm-charts
@@ -14,5 +14,8 @@ spec:
         name: flux-system
         namespace: flux-system
       interval: 1m
+      valuesFiles: 
+        - base/app/bop-config-api/values.yaml              # one
+
 #  values:
 #    replicaCount: 1
