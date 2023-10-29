@@ -5,7 +5,7 @@ kind: Kustomization
 resources:
   - ../../base
 #  - bop-config-ui.yaml
-#  - bop-config-api.yaml
+  - bop-config-api.yaml
 
 # For test (Renaming Namespace)
 patches:
