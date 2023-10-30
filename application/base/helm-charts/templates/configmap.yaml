@@ -6,7 +6,10 @@ metadata:
   labels:
     {{- include "helm-release.labels" . | nindent 4 }}
 data:
-{{- range $config := .Values.configMap }}
-{{ $config | indent 4 -}}
-{{- end -}}
+  config.json: |-
+    {
+{{- range $key, $val := .Values.configMap }}
+{{ $key | quote | indent 6}}: {{ $val | quote }}
+{{- end}}
+    }
 {{- end -}}
