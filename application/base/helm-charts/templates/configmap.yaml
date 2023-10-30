@@ -1,5 +1,4 @@
-{{- if .Values.esConfig }}
----
+{{- if .Values.configMap }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -7,7 +6,7 @@ metadata:
   labels:
     {{- include "helm-release.labels" . | nindent 4 }}
 data:
-{{- range $path, $config := .Values.esConfig }}
+{{- range $path, $config := .Values.configMap }}
   {{ $path }}: |
 {{ $config | indent 4 -}}
 {{- end -}}

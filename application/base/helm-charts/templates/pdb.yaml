@@ -6,7 +6,7 @@ metadata:
   labels:
     {{- include "helm-release.labels" . | nindent 4 }}
 spec:
-  minAvailable: 50%
+  minAvailable: 100%
   selector:
     matchLabels:
       app: {{ include "helm-release.fullname" . }}
