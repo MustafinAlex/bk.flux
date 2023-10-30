@@ -5,8 +5,8 @@ metadata:
   labels:
     {{- include "helm-release.labels" . | nindent 4 }}
 spec:
-{{- if not .Values.autoscaling.enabled }}
-  replicas: {{ .Values.minReplicas }}
+{{- if not .Values.autoscalingPolicy }}
+  replicas: 1
 {{- end }}
   selector:
     matchLabels:
