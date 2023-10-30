@@ -6,7 +6,7 @@ metadata:
   labels:
     {{- include "helm-release.labels" . | nindent 4 }}
 data:
-{{- range $path, $config := .Values.configMap }}
+{{- range $config := .Values.configMap }}
 {{ $config | indent 4 -}}
 {{- end -}}
 {{- end -}}
