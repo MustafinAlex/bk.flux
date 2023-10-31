@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./mosaic-dev-eks/bop-config-svc
+  path: ./mosaic-dev-eks
   prune: true
   sourceRef:
     kind: GitRepository
