@@ -50,9 +50,7 @@ spec:
           livenessProbe:
             {{ .Values.serviceHealth.livenessProbe | toYaml | indent 12 | trim }}
           readinessProbe:
-            httpGet:
-              path: /
-              port: http
+            {{ .Values.serviceHealth.readinessProbe | toYaml | indent 12 | trim }}          
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
