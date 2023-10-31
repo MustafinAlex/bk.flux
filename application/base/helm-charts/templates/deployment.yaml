@@ -48,7 +48,7 @@ spec:
               containerPort: 80
               protocol: TCP
           livenessProbe:
-            {{- toYaml .Values.serviceHealth.livenessProbe | nindent 12 }}
+            {{ toYaml .Values.serviceHealth.livenessProbe | nindent 10 }}
           readinessProbe:
             httpGet:
               path: /
