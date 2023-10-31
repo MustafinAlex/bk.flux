@@ -11,5 +11,8 @@ spec:
   sourceRef:
     kind: GitRepository
     name: bk.k8s-apps
+  dependsOn:
+    - name: sources
+
 
 
