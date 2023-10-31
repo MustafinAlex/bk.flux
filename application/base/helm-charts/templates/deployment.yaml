@@ -47,7 +47,7 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
-          {{ toYaml .Values.serviceHealth.serviceHealth | indent 10 }}
+          {{ toYaml .Values.serviceHealth | indent 12 }}
 #          readinessProbe:
 #          {{ toYaml .Values.serviceHealth.readinessProbe | indent 10 }}
           resources:
