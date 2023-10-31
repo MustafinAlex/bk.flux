@@ -19,6 +19,3 @@ spec:
     name: bop-config-api-values
     valuesKey: values.yaml
     optional: false
-
-#  values:
-#    replicaCount: 1
