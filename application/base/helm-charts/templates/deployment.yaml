@@ -32,7 +32,6 @@ spec:
       serviceAccountName: {{ include "helm-release.serviceAccountName" . }}
       securityContext:
         fsGroup: 65534
-        {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
