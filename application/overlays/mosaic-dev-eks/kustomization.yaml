@@ -5,11 +5,3 @@ kind: Kustomization
 resources:
   - ../../base
   - applications.yaml
-
-# For test (Renaming Namespace)
-patches:
-  - path: ./patches/global/namespace.yaml
-    target:
-       kind: Namespace
-       metadata:
-         name: whatever
