@@ -9,4 +9,4 @@ spec:
     branch: helm-chart
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/MustafinAlex/bk.flux
+  url: ssh://git@github.com/MustafinAlex/bk.helm-charts
