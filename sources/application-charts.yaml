@@ -4,7 +4,7 @@ metadata:
   name: application-charts
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 10s
   ref:
     branch: helm-chart
   secretRef:

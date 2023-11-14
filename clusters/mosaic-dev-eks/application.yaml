@@ -5,7 +5,7 @@ metadata:
   name: flux-mosaic-dev-eks
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 10s
   path: ./application/overlays/mosaic-dev-eks
   prune: true
   sourceRef:
