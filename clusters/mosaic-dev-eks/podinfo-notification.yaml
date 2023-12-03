@@ -18,6 +18,7 @@ spec:
   summary: "Cluster addons impacted in us-east-2"
   providerRef:
     name: msteams
+  eventSeverity: info
   eventSources:
     - kind: HelmRelease
       name: '*'
