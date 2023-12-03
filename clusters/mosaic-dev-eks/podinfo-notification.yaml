@@ -9,7 +9,7 @@ spec:
   secretRef:
     name: flux-msteams-url
 ---
-apiVersion: notification.toolkit.fluxcd.io/v1beta2
+apiVersion: notification.toolkit.fluxcd.io/v1beta1
 kind: Alert
 metadata:
   name: msteams
