@@ -15,6 +15,7 @@ metadata:
   name: msteams
   namespace: flux-system
 spec:
+  summary: "Cluster pods impacted in DEV cluster"
   providerRef:
     name: msteams
   eventSeverity: error
