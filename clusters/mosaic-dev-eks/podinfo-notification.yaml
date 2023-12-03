@@ -17,6 +17,7 @@ metadata:
 spec:
   providerRef:
     name: msteams
+  eventSeverity: error
   eventSources:
     - kind: HelmRelease
       name: '*'
