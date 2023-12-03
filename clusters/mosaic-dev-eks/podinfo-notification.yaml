@@ -17,15 +17,8 @@ metadata:
 spec:
   providerRef:
     name: msteams
-  eventSeverity: error
   eventSources:
-  - kind: GitRepository
-    name: '*'
-  - kind: Kustomization
-    name: '*'
-  - kind: HelmRelease
-    name: '*'
-  - kind: HelmChart
-    name: '*'
-  - kind: HelmRepository
-    name: '*'
+    - kind: HelmRelease
+      name: '*'
+  inclusionList:
+    - ".*succeeded.*"
