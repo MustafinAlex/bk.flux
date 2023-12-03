@@ -25,4 +25,7 @@ spec:
       namespace: application
     - kind: Kustomization
       name: '*'
+    - kind: HelmChart
+      name: '*'
+
 
