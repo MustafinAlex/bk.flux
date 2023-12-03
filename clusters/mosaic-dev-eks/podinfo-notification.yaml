@@ -19,8 +19,6 @@ spec:
     name: msteams
   eventSeverity: info
   eventSources:
-  - kind: Bucket
-    name: '*'
   - kind: GitRepository
     name: '*'
   - kind: Kustomization
@@ -30,10 +28,4 @@ spec:
   - kind: HelmChart
     name: '*'
   - kind: HelmRepository
-    name: '*'
-  - kind: ImageRepository
-    name: '*'
-  - kind: ImagePolicy
-    name: '*'
-  - kind: ImageUpdateAutomation
     name: '*'
