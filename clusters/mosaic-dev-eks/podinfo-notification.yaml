@@ -25,6 +25,7 @@ spec:
       namespace: application
     - kind: Kustomization
       name: '*'
+      namespace: flux-system
     - kind: HelmChart
       name: '*'
       namespace: flux-system
