@@ -27,5 +27,6 @@ spec:
       name: '*'
     - kind: HelmChart
       name: '*'
+      namespace: flux-system
 
 
