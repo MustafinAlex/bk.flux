@@ -4,5 +4,5 @@
   value: "test"
 
 - op: replace
-  path: /spec/tls/0/hosts/0
+  path: /spec/rules/0/hosts/0
   value: staging.notesapp.plan.com
