@@ -5,3 +5,13 @@ kind: Kustomization
 resources:
   - ../../base/application
   - ../../base/ingress-external
+
+patches:
+
+  - path: ./patches/ingress-external.yaml
+    target:
+      group: ""
+      version: v1
+      kind: Ingress
+      namespace: ingress-nginx
+      name: ingress-nginx-external

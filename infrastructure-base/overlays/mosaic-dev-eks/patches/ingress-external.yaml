@@ -1,0 +1,4 @@
+---
+- op: add
+  path: /metadata/annotations/meta.helm.sh~1release-name
+  value: "test"
