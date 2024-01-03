@@ -2,3 +2,7 @@
 - op: add
   path: /metadata/annotations/meta.helm.sh~1release-name
   value: "test"
+
+- op: replace
+  path: /spec/tls/0/hosts/0
+  value: staging.notesapp.plan.com

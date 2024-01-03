@@ -10,8 +10,7 @@ patches:
 
   - path: ./patches/ingress-external.yaml
     target:
-      group: ""
-      version: v1
       kind: Ingress
+      version: v1
       namespace: ingress-nginx
       name: ingress-nginx-external
