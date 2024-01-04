@@ -26,6 +26,6 @@ spec:
         proxy-buffer-size: "64k"
         use-gzip: "true"
         proxy-body-size: "50m"
-      allowSnippetAnnotations: "false"
+      allowSnippetAnnotations: "true"
 
 
