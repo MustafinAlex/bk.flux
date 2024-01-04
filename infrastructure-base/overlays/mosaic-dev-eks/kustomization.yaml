@@ -4,22 +4,3 @@ kind: Kustomization
 
 resources:
   - ../../base/application
-  - ../../base/ingress-external
-  - ../../base/ingress-nginx
-
-patches:
-
-  - path: ./patches/ingress-external.yaml
-    target:
-      kind: Ingress
-      version: v1
-      namespace: ingress-nginx
-      name: ingress-nginx-external
-
-  - path: ./patches/ingress-nginx.yaml
-    target:
-      group: helm.toolkit.fluxcd.io
-      version: v2beta1
-      kind: HelmRelease
-      namespace: ingress-nginx
-      name: ingress-nginx
