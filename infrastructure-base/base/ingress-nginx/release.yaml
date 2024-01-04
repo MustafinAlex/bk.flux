@@ -22,8 +22,10 @@ spec:
           http: http
           https: http
       config:
-        allow-snippet-annotations: "true"
         enable-underscores-in-headers: "true"
         proxy-buffer-size: "64k"
         use-gzip: "true"
         proxy-body-size: "50m"
+      allowSnippetAnnotations: "false"
+
+
