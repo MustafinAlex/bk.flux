@@ -1,0 +1,4 @@
+---
+- op: add
+  path: /spec/values/controller/allow-snippet-annotations
+  value: "false"
