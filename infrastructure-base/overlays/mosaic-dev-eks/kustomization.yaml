@@ -5,6 +5,7 @@ kind: Kustomization
 resources:
   - ../../base/application
   - ../../base/ingress-external
+  - ../../base/ingress-nginx
 
 patches:
 
